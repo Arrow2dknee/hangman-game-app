@@ -1,22 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-    background-color: #3c415e;
+  margin-top: 40px;
+  /* background-color: #2b292e; */
+  background-color: #3c415e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  min-height: 100vh;
 }
 
 button {
-    color: #fff;
-    text-transform: uppercase;
-    background: #ff8c00;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
+  color: #fff;
+  text-transform: uppercase;
+  background: #ff8c00;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  font-size: 14px;
 }
 
 button:hover {
-    /* background: #434343; */
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+  /* background: #434343; */
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.flex-container {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: #ff8c00;
+  /* color: #d35400; */
+  font-size: 3em;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.puzzle {
+  color: #000;
+  font-size: 2.5em;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+}
+
+.message {
+  /* color: #ff8c00; */
+  color: #e67e22;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px 0 10px 0;
 }
